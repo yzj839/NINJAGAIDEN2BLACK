@@ -1,0 +1,18 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EGameSubsystemType.generated.h"
+
+UENUM(BlueprintType)
+enum EGameSubsystemType {
+    E_GAME_SUBSYSTEM_COMMONWORK,
+    E_GAME_SUBSYSTEM_CHARACTER,
+    E_GAME_SUBSYSTEM_STAGE,
+    E_GAME_SUBSYSTEM_ITEM,
+    E_GAME_SUBSYSTEM_UI,
+    E_GAME_SUBSYSTEM_EFFECT,
+    E_GAME_SUBSYSTEM_SEQUENCE,
+    E_GAME_SUBSYSTEM_SOUND,
+    E_GAME_SUBSYSTEM_SAVELOAD,
+    E_GAME_SUBSYSTEM_NUM,
+};
+

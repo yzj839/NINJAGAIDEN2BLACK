@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ public class NINJAGAIDEN2BLACKTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
-
-		ExtraModuleNames.AddRange( new string[] { "NINJAGAIDEN2BLACK" } );
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
+		ExtraModuleNames.Add("NINJAGAIDEN2BLACK");
 	}
 }
